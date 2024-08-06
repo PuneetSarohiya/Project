@@ -1,0 +1,157 @@
+
+
+
+@media(min-width: 768px) {
+    .Slider-images
+    {
+        width: 180px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    
+    .heading
+    {
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: left;
+        width: 80%;
+    }
+    
+    .subscribe-container
+    {
+    
+        /* padding: 10px 20px; */
+        /* height: 100px; */
+        text-align: end;
+    }
+    
+    .subscribe-wrapper
+    {
+        background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+        padding: 40px 50px 40px 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 100px 30px 100px;
+    }
+    
+    
+    .login-input
+    {
+        border: 1px solid rgba(236, 236, 236, 1);
+        padding: 7px;
+        /* border-radius: 4px; */
+        outline: none;
+        width: 100%;
+        height: 50px;
+    }
+    
+    
+    .view-btn {
+        /* display: block; */
+        right: 0;
+        /* border-radius: 8px; */
+        /* align-items: center; */
+        font-weight: 700;
+        border: none;
+        width: 40%;
+        height: 50px;
+        color: #fff;
+        text-decoration: none;
+        background: #3C4647;
+        box-shadow: 0px 20px 44px 0px rgba(255, 71, 126, 0.27);
+        text-decoration: none;
+    }
+    
+    .right-wrapper
+    {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        align-self: center;
+    }
+    
+}
+
+
+
+@media(max-width: 768px) {
+    .Slider-images
+{
+    width: 140px;
+    height: 60px;
+    margin: 60px 0px 60px 0px;
+}
+
+.heading
+{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    width: 80%;
+}
+
+.subscribe-container
+{
+
+    /* padding: 10px 20px; */
+    /* height: 100px; */
+    text-align: end;
+}
+
+.subscribe-wrapper
+{
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+    padding: 20px 30px 20px 30px;
+    margin: 0 15px ;
+}
+
+
+.login-input
+{
+    border: 1px solid rgba(236, 236, 236, 1);
+    padding: 7px;
+    /* border-radius: 4px; */
+    outline: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+}
+
+
+.view-btn {
+    /* display: block; */
+    right: 0;
+    /* border-radius: 8px; */
+    /* align-items: center; */
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-left: 60%;
+    border: 1px solid white;
+    color: #fff;
+    text-decoration: none;
+    background: #3C4647;
+    box-shadow: 0px 20px 44px 0px rgba(255, 71, 126, 0.27);
+    text-decoration: none;
+}
+
+.right-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-self: center;
+}
+
+}

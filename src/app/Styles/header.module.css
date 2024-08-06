@@ -1,0 +1,242 @@
+
+
+
+@media (min-width: 768px){
+    .discount-tag{
+        background-color: #23A6F0;
+        /* padding: 10px; */
+    }
+    
+    .discount-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 28px;
+        line-height: 35px;
+        font-weight: 500;
+        color: white;
+        padding: 16px;
+    }
+    
+    .banner-container
+    { 
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: rgba(0, 0, 0, 0.4); */
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: column wrap;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .getquote-container-gradient{
+        width: 100%;
+        min-height: 1050px;
+        position: absolute;
+        top: 0;
+        opacity: 0.5;
+        
+    }
+    
+    .header-container
+    {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        top: 0;
+    }
+    
+    
+    
+    
+    .view-all {
+        color: white;
+        cursor: pointer;
+    }
+    .view-all:hover {
+        text-decoration: purple;
+    }
+    .button-container {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: #23A6F0;
+        cursor: pointer;
+        align-self: center;
+    }
+    .view-all-box:hover {
+        border: 1px solid purple;
+    }
+
+
+    .header-container
+    {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 40px 100px 100px 100px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-wrapper
+    {
+        position: absolute;
+        top: 120px;
+        right: 100;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px 100px 40px 100px;
+    }
+
+    .banner-container
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    }
+
+    .banner-heading
+    {
+        color: white;
+        font-size: 48px;
+        line-height: 60px;
+        align-self: center;
+
+    }
+    
+    .Benefits-card
+    {
+        margin-top: -200px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .loginform-wrapper
+    {
+        align-self: flex-end;
+        margin-left: 30%;
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    .discount-tag{
+        background-color: #23A6F0;
+    }
+
+    .Benefits-card
+    {
+        margin-top: 0px;
+    }
+    
+    .discount-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 500;
+        color: white;
+        padding: 13px;
+    }
+    
+    .banner-container
+    {
+           /* background-image: url(https://vmnk.gumlet.io/getquoteimage.svg); */
+           background-image: linear-gradient(to top, black, transparent);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-color: rgba(0, 0, 0, 0.4);
+           display: flex;
+           justify-content: flex-end;
+           flex-flow: column wrap;
+           width: 100%;
+           min-height: 700px;
+           /* margin-bottom: 100px; */
+           /* position: relative; */
+    }
+    
+    .getquote-container-gradient{
+        width: 100%;
+        min-height: 1050px;
+        position: absolute;
+        /* background-color: black; */
+        top: 0;
+        opacity: 0.5;
+        
+    }
+    .banner-container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* background-color: blue; */
+        position: absolute;
+    }
+    
+    .header-container
+    {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        top: 0;
+    }
+    
+    
+    
+    
+    .view-all {
+        color: white;
+        cursor: pointer;
+    }
+    .view-all:hover {
+        text-decoration: purple;
+    }
+    .view-all-box {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        background-color: #23A6F0;
+        cursor: pointer;
+        align-self: center;
+    }
+    .view-all-box:hover {
+        border: 1px solid purple;
+    }
+    
+    .banner-container
+    {
+        width: 100%;
+    }
+
+    .banner-heading
+    {
+        color: white;
+        font-size: 34px;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        margin-top: 50px;
+        font-weight: 700;
+
+    }
+}
